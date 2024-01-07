@@ -1,0 +1,111 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.content{
+    max-width: 1200px;
+    margin:0 auto;
+}
+.nav{
+    padding: 10px;
+    display: flex;
+}
+.port{
+    margin: 0 10px;
+    font-family: 'montserrat';
+}
+.top{
+    object-fit:cover; 
+    width : 100% ;
+    height:250px;
+}
+.heading1,.heading2,.heading3,.heading4{
+    text-align: center;
+    font-family: sans-serif;
+}
+.fle{
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.face{
+    width:250px;
+    height:250px;
+    box-shadow:3px 3px 15px 2px rgba(0, 0, 20, 0.5);
+}
+.facebox{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+.about{
+    width: 75%;
+    margin:0;
+    padding: 20px;
+    text-align: justify;
+}
+.tech{
+    margin: 0px 75px;
+}
+.job-table{
+    width: 100%;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.job_heading th{
+    background-color: aquamarine;
+    border:2px solid black;
+    padding:8px;
+    text-align: left;
+}
+.job_data td{
+    border-right:2px solid black;
+    padding:8px;
+}
+.job-table tr:nth-child(even){
+    background-color: ghostwhite;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.contents{
+    display: flex;
+    flex-direction: column;
+}
+label,.terms{
+    padding:10px 0;
+
+}
+
+.contents input,select{
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: grey;
+}
+.SUBMIT{
+    width:90px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: ghostwhite;
+    box-shadow: 0.5px 1.5px 3px 3px rgba(0, 0, 20, 0.2);
+    border-color: azure;
+}
+.footer{
+    margin-top: 20px;
+    background-color: ghostwhite;
+    padding-top: 10px;
+    text-align: center;
+}
+.links{
+    list-style: none;
+}
+.li{
+    display: inline;
+    margin: 0 16px;
+}
